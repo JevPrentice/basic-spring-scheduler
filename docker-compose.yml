@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  scheduler-service:
+    container_name: scheduler-container
+    image: spiderwalk/scheduler:latest
+    ports:
+      - '8088:8088'
